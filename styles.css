@@ -1,14 +1,16 @@
+/* General Body Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #e5ecec;
+    color: #003942;
     margin: 0;
     padding: 0;
 }
 
+/* Header Styling */
 header {
-    background: #333;
+    background: #003942;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -25,45 +27,89 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #92ce39;
     text-decoration: none;
+    font-weight: bold;
 }
 
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
 section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #003942;
 }
 
+/* Button Styling */
+button {
+    background-color: #92ce39;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #77aa2d;
+}
+
+/* Example Cards */
 .click-through-examples .example-card {
     margin-bottom: 20px;
 }
 
+/* Quiz Container */
 .quiz-container {
     margin-top: 20px;
 }
 
+/* Feedback Text */
 .feedback {
     font-weight: bold;
     margin-top: 10px;
+    color: #92ce39;
 }
 
+/* Email Simulation Styling */
 .outlook-style {
     border: 1px solid #ccc;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #e5ecec;
     max-width: 600px;
     margin: 0 auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .outlook-style p {
     margin: 5px 0;
+    color: #003942;
 }
 
+/* Interactions */
 .interaction {
     margin-top: 10px;
+}
+
+/* Hover Effects for Links */
+a {
+    color: #92ce39;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #77aa2d;
 }
