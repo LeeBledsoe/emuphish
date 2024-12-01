@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.click-through-examples .example-card {
+    margin-bottom: 20px;
+}
+
+.quiz-container {
+    margin-top: 20px;
+}
+
+.feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.outlook-style {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outlook-style p {
+    margin: 5px 0;
+}
+
+.interaction {
+    margin-top: 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Email Phishing Awareness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="quiz">
+        <h2>Phishing Quiz</h2>
+        <p>Test your knowledge by identifying which emails are legitimate and which are phishing attempts.</p>
+        <div class="quiz-container">
+            <div class="email-simulation outlook-style" id="email-simulation"></div>
+            <form>
+                <label><input type="radio" name="answer" value="Sender"> Sender</label><br>
+                <label><input type="radio" name="answer" value="Subject"> Subject</label><br>
+                <label><input type="radio" name="answer" value="Body"> Body</label><br>
+                <label><input type="radio" name="answer" value="Safe"> Safe</label><br>
+                <button type="button" onclick="submitAnswer()">Submit Answer</button>
+            </form>
+            <p id="feedback" class="feedback"></p>
+            <button id="next-question-button" style="display:none;" onclick="loadNextQuestion()">Next Question</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

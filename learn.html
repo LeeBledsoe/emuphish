@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn About Phishing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Email Phishing Awareness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+<section id="education">
+        <h2>Learn About Phishing</h2>
+        <p>Email phishing is an attempt by cybercriminals to steal your personal information by pretending to be a trusted source.</p>
+        <ul>
+            <li><strong>Types of Phishing:</strong> Spear Phishing, Clone Phishing, Whaling, etc.</li>
+            <li><strong>How to Recognize:</strong> Spelling errors, suspicious links, and unusual requests.</li>
+            <li><strong>Prevention Tips:</strong> Verify senders, don't click unknown links, and use spam filters.</li>
+        </ul>
+        <div class="click-through-examples">
+            <h3>Click-through Examples</h3>
+            <div class="example-card">
+                <h4>Example 1: Suspicious Link</h4>
+                <button onclick="showExampleEmail('example1')">Click to Review Email</button>
+                <div id="example1-email" class="outlook-style" style="display:none;">
+                    <div class="email-header">
+                        <p><strong>From:</strong> support@amaz0n.com</p>
+                        <p><strong>Subject:</strong> Confirm Your Account Now!</p>
+                    </div>
+                    <div class="email-body">
+                        <p>Click here to claim your reward: <a href="http://fake-amazon-support.com">Claim Reward</a></p>
+                    </div>
+                </div>
+                <div id="example1-details" class="interaction" style="display:none;">
+                    <button onclick="showLinkHover('example1')">Hover over the link</button>
+                    <p id="example1-link-hover" style="display:none; color: red;">Warning: The link points to a suspicious URL (http://fake-amazon-support.com)</p>
+                    <button onclick="showAdditionalInfo('example1')">Check Email Details</button>
+                    <p id="example1-additional-info" style="display:none;">Notice that the sender's address is slightly misspelled: support@amaz0n.com instead of support@amazon.com.</p>
+                </div>
+            </div>
+            <div class="example-card">
+                <h4>Example 2: Fake Invoice</h4>
+                <button onclick="showExampleEmail('example2')">Click to Review Email</button>
+                <div id="example2-email" class="outlook-style" style="display:none;">
+                    <div class="email-header">
+                        <p><strong>From:</strong> billing@randomcompany.com</p>
+                        <p><strong>Subject:</strong> Invoice Due: Immediate Payment Required</p>
+                    </div>
+                    <div class="email-body">
+                        <p>Please find attached the invoice for your recent purchase. Click here to pay immediately: <a href="http://fake-invoice.com">Pay Now</a></p>
+                    </div>
+                </div>
+                <div id="example2-details" class="interaction" style="display:none;">
+                    <button onclick="showLinkHover('example2')">Hover over the link</button>
+                    <p id="example2-link-hover" style="display:none; color: red;">Warning: The link points to a suspicious URL (http://fake-invoice.com)</p>
+                    <button onclick="showAdditionalInfo('example2')">Check Email Details</button>
+                    <p id="example2-additional-info" style="display:none;">The sender's email address does not match any known billing department. Always verify the sender.</p>
+                </div>
+            </div>
+            <div class="example-card">
+                <h4>Example 3: Urgent Request for Payment</h4>
+                <button onclick="showExampleEmail('example3')">Click to Review Email</button>
+                <div id="example3-email" class="outlook-style" style="display:none;">
+                    <div class="email-header">
+                        <p><strong>From:</strong> ceo@company.com</p>
+                        <p><strong>Subject:</strong> Urgent: Transfer Funds Immediately</p>
+                    </div>
+                    <div class="email-body">
+                        <p>We need you to transfer funds to the account below urgently. This is a confidential request, please do not discuss it with anyone.</p>
+                    </div>
+                </div>
+                <div id="example3-details" class="interaction" style="display:none;">
+                    <button onclick="showAdditionalInfo('example3')">Check Email Details</button>
+                    <p id="example3-additional-info" style="display:none;">This email creates a false sense of urgency and secrecy. Always verify such requests through direct communication.</p>
+                </div>
+            </div>
+            <div class="example-card">
+                <h4>Example 4: Verify Your Account</h4>
+                <button onclick="showExampleEmail('example4')">Click to Review Email</button>
+                <div id="example4-email" class="outlook-style" style="display:none;">
+                    <div class="email-header">
+                        <p><strong>From:</strong> no-reply@securebank.com</p>
+                        <p><strong>Subject:</strong> Verify Your Account Information</p>
+                    </div>
+                    <div class="email-body">
+                        <p>We need to verify your account information. Please click the link below to continue: <a href="http://fake-securebank.com">Verify Now</a></p>
+                    </div>
+                </div>
+                <div id="example4-details" class="interaction" style="display:none;">
+                    <button onclick="showLinkHover('example4')">Hover over the link</button>
+                    <p id="example4-link-hover" style="display:none; color: red;">Warning: The link points to a suspicious URL (http://fake-securebank.com)</p>
+                    <button onclick="showAdditionalInfo('example4')">Check Email Details</button>
+                    <p id="example4-additional-info" style="display:none;">Banks typically do not ask for personal information via email. Verify by contacting your bank directly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

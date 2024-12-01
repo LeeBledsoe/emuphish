@@ -1,0 +1,58 @@
+[
+    {
+        "sender": "support@amaz0n.com",
+        "subject": "Confirm Your Account Now!",
+        "body": "Dear Customer,\n\nWe have noticed unusual activity on your account. To ensure your account security, please click the link below and verify your account details:\n\n<a href='http://fake-amazon-support.com'>Verify Your Account</a>\n\nThank you for your prompt attention to this matter.\n\nBest Regards,\nAmazon Support Team",
+        "correctAnswer": "Sender",
+        "difficulty": "easy"
+    },
+    {
+        "sender": "info@paypal.com",
+        "subject": "Urgent: Your Account Has Been Limited",
+        "body": "Dear Valued Customer,\n\nWe have temporarily limited your account due to suspicious activity. To restore full access, please log in and verify your information:\n\n<a href='http://fake-paypal.com'>Restore Access</a>\n\nIf you do not verify within 24 hours, your account will be permanently limited.\n\nThank you for your understanding.\n\nPayPal Security Team",
+        "correctAnswer": "Subject",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "admin@company.com",
+        "subject": "You have a new message from HR",
+        "body": "Hello,\n\nYou have received a confidential message from the HR department. Please click the link below to view it:\n\n<a href='http://fake-hr-message.com'>View Message</a>\n\nThis message contains important information about your employment status.\n\nHR Department",
+        "correctAnswer": "Body",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "no-reply@trusted.com",
+        "subject": "Your recent transaction details",
+        "body": "Dear Customer,\n\nWe are pleased to inform you that your recent transaction was successful. No further action is required on your part.\n\nThank you for your business.\n\nTrusted Company Customer Service",
+        "correctAnswer": "Safe",
+        "difficulty": "easy"
+    },
+    {
+        "sender": "security@bankoftheuniverse.com",
+        "subject": "Security Alert: Unusual Activity Detected",
+        "body": "Dear Customer,\n\nWe detected unusual activity in your account. To ensure your safety, please verify your identity by clicking the link below:\n\n<a href='http://fake-bank-security.com'>Verify Identity</a>\n\nIf this action was not taken by you, please contact us immediately.\n\nBank of the Universe Security Team",
+        "correctAnswer": "Body",
+        "difficulty": "hard"
+    },
+    {
+        "sender": "customer-service@legitcompany.com",
+        "subject": "Thank you for your purchase!",
+        "body": "Hello,\n\nThank you for your recent purchase! Please click the link below to view your receipt and shipping details:\n\n<a href='http://fake-receipt.com'>View Receipt</a>\n\nIf you have any questions, feel free to contact us.\n\nBest regards,\nLegit Company Customer Service",
+        "correctAnswer": "Body",
+        "difficulty": "hard"
+    },
+    {
+        "sender": "it-support@company.com",
+        "subject": "Password Expiry Notification",
+        "body": "Hello,\n\nYour company email password will expire in 2 days. To avoid losing access, please click the link below to update your password:\n\n<a href='http://fake-password-update.com'>Update Password</a>\n\nThank you,\nIT Support Team",
+        "correctAnswer": "Body",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "newsletter@shoppingdealz.com",
+        "subject": "Exclusive Offer Just for You!",
+        "body": "Hi there,\n\nWe've got an exclusive offer just for our subscribers! Get 50% off your next purchase by clicking the link below:\n\n<a href='http://fake-shopping-dealz.com'>Claim Your Discount</a>\n\nHurry, this offer is only valid for the next 24 hours!\n\nHappy Shopping,\nShopping Dealz Team",
+        "correctAnswer": "Body",
+        "difficulty": "easy"
+    }
+]
