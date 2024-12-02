@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myLSU Login</title>
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            background-color: #301456;
+            color: white;
+        }
+
+        a {
+            color: #EFC326;
+            text-decoration: underline;
+        }
+
+        .login-container {
+            max-width: 600px;
+            margin: 100px auto;
+            background-color: #301456;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .login-header img {
+            width: 270px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #EFC326;
+            box-shadow: 0 0 5px rgba(239, 195, 38, 0.5);
+        }
+
+        .btn {
+            display: inline-block;
+            width: calc(48% - 5px);
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-secondary {
+            background-color: #28a745;
+        }
+
+        .btn-secondary:hover {
+            background-color: #218838;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .text-center a {
+            margin: 0 10px;
+        }
+
+        #phishing-warning {
+            display: none;
+            color: red;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <form>
+            <div class="form-group">
+                <label for="username">myLSU account or Email address</label>
+                <input type="text" class="form-control" id="username" placeholder="myLSU account or Email address">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <p id="phishing-warning">You could've been phished, make sure to verify the URL before putting in your password! Please Click "Proceed to Site" to continue!</p>
+            <div class="button-container">
+                <button type="submit" class="btn">Login</button>
+                <a href="index.html" class="btn btn-secondary">Proceed to Site</a>
+            </div>
+            <div class="text-center mt-3">
+                <a href="#">Forgot Password?</a> | <a href="#">Login Trouble?</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Select the input fields and the warning element
+        const usernameField = document.getElementById('username');
+        const passwordField = document.getElementById('password');
+        const warningMessage = document.getElementById('phishing-warning');
+
+        // Add event listeners to show the warning on focus
+        usernameField.addEventListener('focus', () => {
+            warningMessage.style.display = 'block';
+        });
+
+        passwordField.addEventListener('focus', () => {
+            warningMessage.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
