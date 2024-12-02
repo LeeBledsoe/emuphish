@@ -54,5 +54,117 @@
         "body": "Hi there,\n\nWe've got an exclusive offer just for our subscribers! Get 50% off your next purchase by clicking the link below:\n\n<a href='http://fake-shopping-dealz.com'>Claim Your Discount</a>\n\nHurry, this offer is only valid for the next 24 hours!\n\nHappy Shopping,\nShopping Dealz Team",
         "correctAnswer": "Body",
         "difficulty": "easy"
+    },
+    {
+        "sender": "helpdesk@corporate.com",
+        "subject": "Important: Verify Your Account Details",
+        "body": "Dear Employee,\n\nWe need you to verify your account details to ensure your continued access to company services. Please click the link below to verify your information:\n\n<a href='http://fake-corporate-help.com'>Verify Account Details</a>\n\nFailure to verify your account within 48 hours will result in restricted access.\n\nCorporate Helpdesk",
+        "correctAnswer": "Body",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "security-alert@onlineservices.com",
+        "subject": "Action Required: Confirm Your Identity",
+        "body": "Dear User,\n\nWe have detected unusual login attempts on your account. Please confirm your identity by clicking the link below:\n\n<a href='http://fake-online-services.com'>Confirm Identity</a>\n\nIf you did not make these attempts, please secure your account immediately.\n\nOnline Services Security Team",
+        "correctAnswer": "Sender",
+        "difficulty": "hard"
+    },
+    {
+        "sender": "noreply@rewardcenter.com",
+        "subject": "Congratulations! You've Won a Reward!",
+        "body": "Hi,\n\nYou have been selected to receive an exclusive reward! Click the link below to claim your prize:\n\n<a href='http://fake-reward-center.com'>Claim Your Reward</a>\n\nDon't miss this opportunity, claim it now!\n\nReward Center Team",
+        "correctAnswer": "Subject",
+        "difficulty": "easy"
+    },
+    {
+        "sender": "support@apple-service.com",
+        "subject": "Apple ID Locked - Immediate Action Required",
+        "body": "Dear Apple User,\n\nYour Apple ID has been locked due to security reasons. To unlock your account, please click the link below and verify your identity:\n\n<a href='http://fake-apple-support.com'>Unlock My Account</a>\n\nPlease take action immediately to avoid losing access to your account.\n\nApple Support Team",
+        "correctAnswer": "Sender",
+        "difficulty": "hard"
+    },
+    {
+        "sender": "bonus@bigwinlottery.com",
+        "subject": "You are our lucky winner!",
+        "body": "Dear Winner,\n\nCongratulations! You have won a cash prize of $10,000 in our latest draw! To receive your prize, click the link below and provide your details:\n\n<a href='http://fake-bigwin-lottery.com'>Claim My Prize</a>\n\nHurry, you have 48 hours to claim your reward!\n\nBig Win Lottery Team",
+        "correctAnswer": "Subject",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "noreply@freelancejobs.com",
+        "subject": "Freelance Opportunity: Apply Now!",
+        "body": "Hello,\n\nWe found your profile on a professional network and have a freelance opportunity for you. Click the link below to learn more about the job:\n\n<a href='http://fake-freelance-opportunity.com'>View Job Details</a>\n\nThis opportunity is available for a limited time, so act fast!\n\nFreelance Jobs Team",
+        "correctAnswer": "Body",
+        "difficulty": "easy"
+    },
+    {
+        "sender": "travel@vacationdeals.com",
+        "subject": "Limited-Time Vacation Deal - Act Fast!",
+        "body": "Dear Traveler,\n\nWe are offering an exclusive deal for a vacation package to the Bahamas. Click the link below to reserve your spot:\n\n<a href='http://fake-vacation-deal.com'>Book Your Vacation Now</a>\n\nThis deal is only available for the next 48 hours!\n\nVacation Deals Team",
+        "correctAnswer": "Body",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "support@bankingalert.com",
+        "subject": "Immediate Action Required: Unusual Transaction Detected",
+        "body": "Dear Customer,\n\nWe have detected an unusual transaction on your account. Please click the link below to verify this transaction:\n\n<a href='http://fake-banking-alert.com'>Verify Transaction</a>\n\nIf you do not verify within 24 hours, your account may be restricted.\n\nBanking Alert Team",
+        "correctAnswer": "Sender",
+        "difficulty": "hard"
+    },
+    {
+        "sender": "support@cloudstore.com",
+        "subject": "Your Cloud Storage is Full - Upgrade Now!",
+        "body": "Hello,\n\nYour cloud storage is almost full. To continue saving files, please click the link below to upgrade your plan:\n\n<a href='http://fake-cloud-upgrade.com'>Upgrade Now</a>\n\nThank you for using our service.\n\nCloudStore Support Team",
+        "correctAnswer": "Body",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "hr@recruitmentagency.com",
+        "subject": "Invitation for Job Interview",
+        "body": "Dear Applicant,\n\nWe were impressed by your profile and would like to invite you for an interview. Please click the link below to schedule your interview time:\n\n<a href='http://fake-interview-schedule.com'>Schedule Interview</a>\n\nWe look forward to speaking with you.\n\nRecruitment Agency HR Team",
+        "correctAnswer": "Body",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "admin@companyupdates.com",
+        "subject": "Mandatory System Update Notification",
+        "body": "Hello Employee,\n\nPlease note that a mandatory system update is scheduled for this weekend. Click the link below to complete the preliminary steps:\n\n<a href='http://fake-system-update.com'>Update Now</a>\n\nYour immediate attention is required to avoid system downtime.\n\nCompany IT Team",
+        "correctAnswer": "Body",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "alerts@healthcareinfo.com",
+        "subject": "Urgent: Health Insurance Update Needed",
+        "body": "Dear Member,\n\nTo ensure that your health insurance coverage continues uninterrupted, please click the link below and update your details:\n\n<a href='http://fake-healthcare-update.com'>Update Information</a>\n\nThank you for your prompt attention to this matter.\n\nHealthcare Info Team",
+        "correctAnswer": "Body",
+        "difficulty": "hard"
+    },
+    {
+        "sender": "contact@realestateoffers.com",
+        "subject": "Special Discount on Your Dream Home!",
+        "body": "Hello,\n\nWe have an exclusive offer on your dream home! Click the link below to view the property details and claim your discount:\n\n<a href='http://fake-real-estate-offer.com'>View Offer</a>\n\nThis is a limited-time offer, so don't miss out!\n\nReal Estate Offers Team",
+        "correctAnswer": "Body",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "legal@lawsupport.com",
+        "subject": "Important: Lawsuit Settlement Notice",
+        "body": "Dear User,\n\nYou are eligible for a financial settlement from a recent lawsuit. To receive your settlement, click the link below to submit your claim:\n\n<a href='http://fake-lawsuit-settlement.com'>Submit Claim</a>\n\nPlease complete this within 7 days to ensure you receive your compensation.\n\nLaw Support Team",
+        "correctAnswer": "Subject",
+        "difficulty": "hard"
+    },
+    {
+        "sender": "jobs@hiringportal.com",
+        "subject": "Job Application Status Update",
+        "body": "Dear Applicant,\n\nYour job application has been reviewed. Click the link below to check the status and schedule your next interview:\n\n<a href='http://fake-job-portal.com'>Check Status</a>\n\nThank you for your interest in joining our company.\n\nHiring Portal Team",
+        "correctAnswer": "Body",
+        "difficulty": "medium"
+    },
+    {
+        "sender": "alerts@techdeals.com",
+        "subject": "Exclusive Tech Sale - Today Only!",
+        "body": "Hi there,\n\nDon't miss our exclusive tech sale! Save up to 70% on electronics for today only. Click the link below to shop now:\n\n<a href='http://fake-tech-deals.com'>Shop Now</a>\n\nHurry, deals are going fast!\n\nTech Deals Team",
+        "correctAnswer": "Body",
+        "difficulty": "easy"
     }
 ]
